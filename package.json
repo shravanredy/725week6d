@@ -1,0 +1,23 @@
+{
+  "name": "task5.2-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec ./test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "chalk": "^2.3.2",
+    "express": "^4.19.2",
+    "fix-esm": "^1.0.1",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.5.0",
+    "request": "^2.88.2"
+  }
+}
